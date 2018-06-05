@@ -1,0 +1,244 @@
+body {
+    font-family: sans-serif;
+	padding: 30px;
+    background-image:url(theatre-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+  
+	
+}
+
+.search-bar {
+	width: 51vw;
+	//padding-left: 20px;
+      margin-left: 21vw;
+}
+
+.footer {
+   position:fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+	padding: 2px;
+}
+
+.heading  {
+	margin-left: 32vw;
+	letter-spacing: 5px;
+	margin-top: 1vh;
+	color:orangered;
+	font-size: bold;
+    text-shadow: 1px 1px 0 #FFFFFF, 2px 2px 0 #000000;
+}
+
+
+
+
+
+.moviesearch-title {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 100;
+	letter-spacing: 8px;
+	margin: 0 auto 20px;
+	text-transform: uppercase;
+}
+
+.moviesearch-input {
+	display: block;
+	width: 400px;
+	margin: 0 auto 40px;
+	padding: 0 8px;
+	height: 48px;
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.moviesearch-movie {
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+.moviesearch-movie-poster {
+	margin-right: 50vw;
+	width: 35%;
+	margin-right: 5%;
+	margin-top: 3%;
+}
+
+.moviesearch-movie-info {
+	float: left;
+	width: 60%;
+	
+}
+
+.moviesearch-movie-info-title {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.moviesearch-movie-info-year {
+	font-style: italic;
+	color: #AAA;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.moviesearch-movie-info-plot {
+	font-size: 18px;
+	margin-bottom: 20px;
+	color: aquamarine;
+}
+
+.moviesearch-movie-info-director
+ {
+	font-size: 14px;
+	color: darkgrey;
+}
+
+.moviesearch-movie-info-actors{
+	font-size: 14px;
+	color: white;
+	
+}
+
+.moviesearch-movie-info-director {
+	margin-bottom: 5px;
+}
+
+.moviesearch-movie-info-actors {
+	margin-bottom: 15px;
+}
+
+.moviesearch-movie-info-genres {
+	font-size: 12px;
+	color: #AAA;
+}
+
+.moviesearch-movie-info-rated {
+	font-size: 12px;
+	color: #AAA;
+}
+
+@media screen and (max-width: 1085px) and (min-width:750px) {
+	.search-bar{
+		width: 60vw;
+	}
+
+}
+
+@media screen and (max-width: 955px) {
+	.heading{
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 777px) {
+	.heading{
+		font-size: 20px;
+	}
+	.footer{
+		height: 4%;
+	}
+}
+
+@media screen and (max-width: 591px) {
+	.heading{
+		margin-left: 150px;
+	}
+}
+
+@media screen and (max-width: 669px) and (min-width:592px) {
+	.search-bar{
+		width: 70vw;
+	    margin-left: 80px;
+	}
+
+}
+
+
+@media screen and (max-width: 571px) {
+	.search-bar{
+        width: 60vw;
+	}
+	.heading{
+		margin-left: 150px;
+		letter-spacing: 1px;
+	}
+}
+
+.moviesearch-movie{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+@media screen and (max-width: 480px) {
+	body{
+		background-image: url(theatre-background.jpg);
+		background-repeat: repeat;
+		background-size: cover;
+	}
+	.moviesearch-movie-poster {
+width: 80%;
+height: 45vh;
+margin-left: 40px;
+		
+	}
+	.heading{
+		letter-spacing: normal;
+		font-size: 20px;
+		margin-left: 55px;
+		bottom: 30vh;
+	}
+	.moviesearch-movie-info-plot{
+		font-size: 10px;
+	}
+	
+	.moviesearch-movie-info-plot {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+	.search-bar{
+       margin-left: 35px;
+	   bottom: 100px;
+	   width: 65vw;
+	}
+	
+.footer {
+   position:fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+	padding: 2px;
+	height: 4.1%;
+}
+	.moviesearch-movie-info-plot {
+     margin-left: 20px;
+	width: 150%;
+		padding: 0px;
+}
+
+	.moviesearch-movie-poster {
+	margin-left: 30px;
+}
+
+	
+	
+	
+.moviesearch-movie-info-director,
+.moviesearch-movie-info-actors,
+.moviesearch-movie-info-genres, 
+.moviesearch-movie-info-rated {
+	width: 120%;
+	margin-left: 20px;
+}
+	
+	
+}
